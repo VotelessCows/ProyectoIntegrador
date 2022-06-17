@@ -76,13 +76,13 @@
           std::cout << "Introduce la defensa: " << '\n';
           std::cin >> t_def;
           t_prin = "Axe slash"; //Ataque principal es predeterminado
-          std::cout << "Introduce el nombre de la habilidad de tu personaje: " << '\n';
-          std::cin >> t_hab;
-
+          t_hab = "Barbarian Rage"; //Habilidad predeterminada
 
           Personaje *temp_barbaro = new claseBarbaro(t_nombre,t_nivelp,t_personalidad,t_vida,t_intel,t_fue,t_def,t_prin,t_hab); //Creacion de objeto tipo Barbaro
           temp_barbaro -> personajeAtaca();   //Funcion de Polimorfismo
+          std::cout <<'\n';
           temp_barbaro -> personajeDefiende(); //Funcion de Polimorfismo
+          std::cout <<'\n';
 
           //Se agrega un objeto tipo Barbaro a la lista
 
@@ -113,15 +113,16 @@
           std::cout << "Introduce la defensa: " << '\n';
           std::cin >> t_def;
           t_prin = "Sword slash"; //Ataque principal es predeterminado
-          std::cout << "Introduce el nombre de la habilidad de tu personaje: " << '\n';
-          std::cin >> t_hab;
+          t_hab = "Paladins Guard"; //Habilidad predeterminada
           std::cout << "Introduce los puntos de armadura del paladin" << '\n';
           std::cin >> t_defA;
 
           Personaje *temp_paladin = new clasePaladin(t_nombre,t_nivelp,t_personalidad,t_vida,t_intel,t_fue,t_def,t_prin,t_hab,t_defA); //Creacion de objeto tipo Paladin
 
           temp_paladin -> personajeDefiende(); //Funcion de Polimorfismo
+          std::cout <<'\n';
           temp_paladin -> personajeAtaca(); //Funcion de Polimorfismo
+          std::cout <<'\n';
 
           //Se agrega un objeto tipo Paladin a la lista
 
@@ -152,16 +153,17 @@
           std::cin >> t_fue;
           std::cout << "Introduce la defensa: " << '\n';
           std::cin >> t_def;
-          t_prin = "Bola Magica"; //Ataque principal es predeterminado
-          std::cout << "Introduce el nombre de la habilidad de tu personaje: " << '\n';
-          std::cin >> t_hab;
+          t_prin = "Rayo magico"; //Ataque principal es predeterminado
+          t_hab = "Bola de Fuego"; //Habilidad predeterminada
           std::cout << "Introduce los puntos de la tunica del Mago (Le da mas inteligencia)" << '\n';
           std::cin >> t_tun;
 
           Personaje *temp_mago = new claseMago(t_nombre,t_nivelp,t_personalidad,t_vida,t_intel,t_fue,t_def,t_prin,t_hab,t_tun); //Creacion de objeto tipo Mago
 
           temp_mago -> personajeAtaca(); //Funcion de Polimorfismo
+          std::cout <<'\n';
           temp_mago -> personajeDefiende(); //Funcion de Polimorfismo
+          std::cout <<'\n';
 
           //Se agrega un objeto tipo mago a la lista
 
