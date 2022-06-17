@@ -66,7 +66,7 @@
           std::cin >> t_nombre;
           std::cout << "Introduce el nivel: " << '\n';
           std::cin >> t_nivelp;
-          std::cout << "Introduce su tipo de personalidad: " << '\n';
+          std::cout << "Introduce su tipo de personalidad (Solo una, Ejemplo, Enojon): " << '\n';
           std::cin >> t_personalidad;
           t_vida=100;   //Vida es predeterminada
           std::cout << "Introduce la inteligencia: " << '\n';
@@ -103,7 +103,7 @@
           std::cin >> t_nombre;
           std::cout << "Introduce el nivel: " << '\n';
           std::cin >> t_nivelp;
-          std::cout << "Introduce su tipo de personalidad: " << '\n';
+          std::cout << "Introduce su tipo de personalidad (Solo una, Ejemplo, Enojon): " << '\n';
           std::cin >> t_personalidad;
           t_vida=100;  //Vida es predeterminada
           std::cout << "Introduce la inteligencia: " << '\n';
@@ -144,7 +144,7 @@
           std::cin >> t_nombre;
           std::cout << "Introduce el nivel: " << '\n';
           std::cin >> t_nivelp;
-          std::cout << "Introduce su tipo de personalidad: " << '\n';
+          std::cout << "Introduce su tipo de personalidad (Solo una, Ejemplo, Enojon): " << '\n';
           std::cin >> t_personalidad;
           t_vida=100; //Vida es predeterminada
           std::cout << "Introduce la inteligencia: " << '\n';
