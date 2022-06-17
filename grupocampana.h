@@ -38,7 +38,7 @@ grupoCampana::grupoCampana(string nam){
   name=nam;
 }
 
-/*Para la funcion printEquipo, creamos una lista, en lugar de un arreglo
+/*Para la funcion printEquipo, cree una lista, en lugar de un arreglo
 El ciclo for recorre la lista donde se van agregando los Personajes
 la lista recibe apuntadores de la clase Personaje, y utiliza sus metodos para
 imprimir su nombre, nivel, personlaidad y todos sus atributos
