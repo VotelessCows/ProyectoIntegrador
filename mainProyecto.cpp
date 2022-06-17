@@ -10,7 +10,7 @@ Este es el main, donde se corre todo el programa
 #include "mago.h"
 #include "personaje.h"
 #include "paladin.h"
-#include "grupocampana.h"
+#include "grupocampana.h"  //Declaracion de archivos a usar y bibliotecas
 #include <stdlib.h>
 #include <iostream>
 #include <sstream>
